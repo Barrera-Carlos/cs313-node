@@ -1,13 +1,18 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
 <form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
+  Weight of item:<br>
+  <input type="number" name="Weight" min="0" max="100" required>
   <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
+  Type of mail:<br>
+  <select>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
   <br><br>
   <input type="submit" value="Submit">
 </form>
