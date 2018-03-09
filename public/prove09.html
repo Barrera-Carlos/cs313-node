@@ -3,21 +3,17 @@
 <body>
 
 <form action="/action_page.php">
-  Weight of item:<br>
-  <input type="number" name="Weight" min="0" max="100" required>
+  Weight of item(oz):<br>
+  <input type="number" name="Weight" min="0" max="13" required>
   <br>
   Type of mail:<br>
-  <select>
+  <select  name="mailType">
     <option value="1">Letters (Stamped)</option>
     <option value="2">Letters (Metered)</option>
     <option value="3">Large Envelopes (Flats)</option>
     <option value="4">First-Class Package Service—Retail</option>
   </select>
   <br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
+  <input type="submit" value="Submit"></form>
 </body>
 </html>
