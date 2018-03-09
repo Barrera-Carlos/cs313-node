@@ -2,16 +2,16 @@
 <html>
 <body>
 
-<form action="/action_page.php">
+<form action="/rate" method="get">
   Weight of item(oz):<br>
   <input type="number" name="Weight" min="0" max="13" required>
   <br>
   Type of mail:<br>
-  <select  name="mailType">
-    <option value="1">Letters (Stamped)</option>
-    <option value="2">Letters (Metered)</option>
-    <option value="3">Large Envelopes (Flats)</option>
-    <option value="4">First-Class Package Service—Retail</option>
+  <select name="mailType">
+    <option>Letters (Stamped)</option>
+    <option>Letters (Metered)</option>
+    <option>Large Envelopes (Flats)</option>
+    <option>First-Class Package Service—Retail</option>
   </select>
   <br><br>
   <input type="submit" value="Submit"></form>
